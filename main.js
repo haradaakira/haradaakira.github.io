@@ -66,7 +66,7 @@ class HomeComponent {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 34, vars: 6, consts: [[1, "play-container"], [3, "click"], ["type", "text", 3, "ngModel", "ngModelChange"], [1, "play-container", 3, "ngClass"], [3, "ngIf", "ngIfElse"], ["none", ""]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 34, vars: 6, consts: [[1, "play-container"], [3, "click"], ["type", "text", "placeholder", "Digite algo!", 3, "ngModel", "ngModelChange"], [1, "play-container", 3, "ngClass"], [3, "ngIf", "ngIfElse"], ["none", ""]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Conjunto de estudos:");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -542,7 +542,7 @@ class CepComponent {
     }
 }
 CepComponent.ɵfac = function CepComponent_Factory(t) { return new (t || CepComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_http_service__WEBPACK_IMPORTED_MODULE_1__["HttpService"])); };
-CepComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CepComponent, selectors: [["app-cep"]], decls: 12, vars: 2, consts: [[1, "play-container"], ["type", "text", 3, "ngModel", "ngModelChange", "blur"], ["class", "end", 4, "ngIf"], [1, "end"]], template: function CepComponent_Template(rf, ctx) { if (rf & 1) {
+CepComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CepComponent, selectors: [["app-cep"]], decls: 12, vars: 2, consts: [[1, "play-container"], ["type", "text", "placeholder", "Somente n\u00FAmeros!", 3, "ngModel", "ngModelChange", "blur"], ["class", "end", 4, "ngIf"], [1, "end"]], template: function CepComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Estudo de API no Angular 10:");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
